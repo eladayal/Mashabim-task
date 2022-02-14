@@ -1,0 +1,22 @@
+.btn-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 140px;
+  font-size: rem(20px);
+  background-color: rgba(255, 255, 255, 0);
+  color: $purple;
+  border-radius: 51px;
+  border: 2px solid $purple;
+
+  &.full {
+    background-color: $purple;
+    color: #fff;
+  }
+  &:disabled {
+    background-color: #bbbbbb;
+    color: #999999;
+    border-color: #bbbbbb;
+  }
+}
